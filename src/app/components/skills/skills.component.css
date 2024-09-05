@@ -1,0 +1,33 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: var(--text-950);
+}
+
+.skill {
+  width: 8.5rem;
+  height: 8.5rem;
+  background-color: var(--background-50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 5px 0 var(--primary-800);
+  transition: all 0.5s;
+  text-align: center;
+  gap: 2px;
+}
+
+.skill > svg {
+  width: 50%;
+  height: 50%;
+  color: var(--primary-700);
+  fill: var(--primary-700);
+}

@@ -1,0 +1,42 @@
+<ul class="timeline">
+  <li
+    [ngClass]="{ 'timeline-item': !right, 'timeline-item-right': right }"
+    *ngFor="let item of data; let i = index"
+  >
+    <ul class="jost-regular">
+      <div [ngClass]="{ point: !right, 'point-right': right }"></div>
+      <li [ngClass]="{ title: !right, 'title-right': right }">
+        <h3 class="jost-medium">{{ item.titulo }}</h3>
+      </li>
+      <li [ngClass]="{ location: !right, 'location-right': right }">
+        {{ item.localidad }}
+      </li>
+      <li [ngClass]="{ date: !right, 'date-right': right }">
+        {{ item.fecha }}
+      </li>
+      <li [ngClass]="{ accordion: !right, 'accordion-right': right }">
+        <input type="checkbox" [id]="item.id" [checked]="i === 0" />
+        <label
+          class="accordion-label jost-medium"
+          [for]="item.id"
+          [ngClass]="{ row: !right, 'row-reverse': right }"
+        >
+          <span class="jost-regular">Resumen</span>
+          <svg
+            cIcon
+            name="cilChevronRight"
+            [ngClass]="{ chevron: !right, 'chevron-right': right }"
+          ></svg>
+        </label>
+        <div class="accordion-content">
+          <p>{{ item.descripcion }}</p>
+        </div>
+      </li>
+    </ul>
+  </li>
+  <li [ngClass]="{ 'timeline-item': !right, 'timeline-item-right': right }">
+    <ul>
+      <div [ngClass]="{ point: !right, 'point-right': right }"></div>
+    </ul>
+  </li>
+</ul>

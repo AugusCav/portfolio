@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Space+Grotesk:wght@300..700&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  font-size: 16px;
+  --text-50: #f0edf7;
+  --text-100: #e0dbf0;
+  --text-200: #c2b8e0;
+  --text-300: #a394d1;
+  --text-400: #8570c2;
+  --text-500: #664db3;
+  --text-600: #523d8f;
+  --text-700: #3d2e6b;
+  --text-800: #291f47;
+  --text-900: #140f24;
+  --text-950: #0a0812;
+
+  --background-50: #efeef7;
+  --background-100: #dfdcef;
+  --background-200: #bfb9df;
+  --background-300: #a096cf;
+  --background-400: #8073bf;
+  --background-500: #6050af;
+  --background-600: #4d408c;
+  --background-700: #3a3069;
+  --background-800: #262046;
+  --background-900: #131023;
+  --background-950: #0a0811;
+
+  --primary-50: #efe9fc;
+  --primary-100: #ded2f9;
+  --primary-200: #bea6f2;
+  --primary-300: #9d79ec;
+  --primary-400: #7d4ce6;
+  --primary-500: #5c20df;
+  --primary-600: #4a19b3;
+  --primary-700: #371386;
+  --primary-800: #250d59;
+  --primary-900: #12062d;
+  --primary-950: #090316;
+
+  --secondary-50: #efebfa;
+  --secondary-100: #e0d6f5;
+  --secondary-200: #c1aeea;
+  --secondary-300: #a285e0;
+  --secondary-400: #835dd5;
+  --secondary-500: #6434cb;
+  --secondary-600: #502aa2;
+  --secondary-700: #3c1f7a;
+  --secondary-800: #281551;
+  --secondary-900: #140a29;
+  --secondary-950: #0a0514;
+
+  --accent-50: #efeafb;
+  --accent-100: #dfd5f6;
+  --accent-200: #c0abed;
+  --accent-300: #a081e4;
+  --accent-400: #8157db;
+  --accent-500: #612dd2;
+  --accent-600: #4e24a8;
+  --accent-700: #3a1b7e;
+  --accent-800: #271254;
+  --accent-900: #13092a;
+  --accent-950: #0a0415;
+}
+
+.jost-medium {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.jost-regular {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-grotesk-bold {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-grotesk-regular {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}

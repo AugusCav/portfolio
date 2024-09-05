@@ -1,0 +1,17 @@
+.btn {
+  background-color: var(--primary-500);
+  color: var(--text-50);
+  border: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 24px;
+  margin-top: 1.5rem;
+}
+
+.btn:hover {
+  background-color: var(--secondary-700);
+  cursor: pointer;
+}
+
+.btn:active {
+  background-color: var(--primary-500);
+}
